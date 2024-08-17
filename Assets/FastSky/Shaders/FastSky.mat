@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9119223613479291805
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FastSky
+  m_Shader: {fileID: -6465566751694194690, guid: 1affc6b836b61964eb10940ae9aaedda, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CloudAnisotropy: 0.23
+    - _CloudBrightness: 20.1
+    - _CloudDensity: 6.3
+    - _CloudHeight: 0.59
+    - _CloudScale: 1
+    - _CloudSoftness: 1
+    - _CloudSpeed: 4.86
+    - _CloudThickness: 0.4
+    - _CloudTwirl: 0.5
+    - _DayBrightness: 1
+    - _DayScatterStrength: 1
+    - _DensityPower: 8
+    - _EveningBrightness: 0.5
+    - _EveningScatterStrength: 7.5
+    - _EveningThreshold: 3
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Saturation: 1
+    - _StarBrightness: 1
+    - _StarScale: 20
+    - _StarSize: 0.69
+    - _StarSpeed: 0.1
+    - _StarThreshold: 1
+    - _SunIntensity: 30
+    - _SunSize: 0.05
+    m_Colors:
+    - _CloudColour: {r: 1, g: 1, b: 1, a: 1}
+    - _DayColour: {r: 0, g: 0, b: 0, a: 1}
+    - _EveningColour: {r: 0.03444286, g: 0.07733315, b: 0.16981131, a: 1}
+    - _StarColour: {r: 0.74056596, g: 0.933484, b: 1, a: 1}
+    - _Wavelengths: {r: 680, g: 440, b: 550, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

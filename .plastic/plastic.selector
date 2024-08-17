@@ -1,0 +1,4 @@
+repository "GMTK-GameJam_2024@SSDevGroup@cloud"
+  path "/"
+    br "/main"
+    co "/main"
